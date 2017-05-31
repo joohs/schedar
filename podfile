@@ -1,0 +1,5 @@
+
+
+target ’schedar’ do 
+	pod ‘RTRootNavigationController’
+end

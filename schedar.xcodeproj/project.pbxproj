@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6197F0001EDEAEBA0066DE5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6197EFFF1EDEAEBA0066DE5F /* main.m */; };
+		6197F0031EDEAEBA0066DE5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6197F0021EDEAEBA0066DE5F /* AppDelegate.m */; };
+		6197F0091EDEAEBA0066DE5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6197F0071EDEAEBA0066DE5F /* Main.storyboard */; };
+		6197F00B1EDEAEBA0066DE5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6197F00A1EDEAEBA0066DE5F /* Assets.xcassets */; };
+		6197F00E1EDEAEBA0066DE5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6197F00C1EDEAEBA0066DE5F /* LaunchScreen.storyboard */; };
+		6197F0191EDEAEBA0066DE5F /* schedarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6197F0181EDEAEBA0066DE5F /* schedarTests.m */; };
+		6197F0241EDEAEBA0066DE5F /* schedarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6197F0231EDEAEBA0066DE5F /* schedarUITests.m */; };
+		6197F0331EDEAF440066DE5F /* 雨季不再来.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6197F0321EDEAF440066DE5F /* 雨季不再来.txt */; };
+		6197F0361EDEAFA60066DE5F /* XXHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6197F0351EDEAFA60066DE5F /* XXHomeViewController.m */; };
+		94B38989D0390897E5924CA2 /* libPods-schedar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F03002AE41345671E0411D99 /* libPods-schedar.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6197F0151EDEAEBA0066DE5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6197EFF31EDEAEBA0066DE5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6197EFFA1EDEAEBA0066DE5F;
+			remoteInfo = schedar;
+		};
+		6197F0201EDEAEBA0066DE5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6197EFF31EDEAEBA0066DE5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6197EFFA1EDEAEBA0066DE5F;
+			remoteInfo = schedar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57EBB632BB43E1814AA2F7AD /* Pods-schedar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-schedar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-schedar/Pods-schedar.debug.xcconfig"; sourceTree = "<group>"; };
+		6197EFFB1EDEAEBA0066DE5F /* schedar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = schedar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6197EFFF1EDEAEBA0066DE5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6197F0011EDEAEBA0066DE5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6197F0021EDEAEBA0066DE5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6197F0081EDEAEBA0066DE5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6197F00A1EDEAEBA0066DE5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6197F00D1EDEAEBA0066DE5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6197F00F1EDEAEBA0066DE5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6197F0141EDEAEBA0066DE5F /* schedarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = schedarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6197F0181EDEAEBA0066DE5F /* schedarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = schedarTests.m; sourceTree = "<group>"; };
+		6197F01A1EDEAEBA0066DE5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6197F01F1EDEAEBA0066DE5F /* schedarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = schedarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6197F0231EDEAEBA0066DE5F /* schedarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = schedarUITests.m; sourceTree = "<group>"; };
+		6197F0251EDEAEBA0066DE5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6197F0321EDEAF440066DE5F /* 雨季不再来.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "雨季不再来.txt"; sourceTree = "<group>"; };
+		6197F0341EDEAFA60066DE5F /* XXHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXHomeViewController.h; sourceTree = "<group>"; };
+		6197F0351EDEAFA60066DE5F /* XXHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXHomeViewController.m; sourceTree = "<group>"; };
+		7973E8213629FE7E7BDF8789 /* Pods-schedar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-schedar.release.xcconfig"; path = "Pods/Target Support Files/Pods-schedar/Pods-schedar.release.xcconfig"; sourceTree = "<group>"; };
+		F03002AE41345671E0411D99 /* libPods-schedar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-schedar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6197EFF81EDEAEBA0066DE5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B38989D0390897E5924CA2 /* libPods-schedar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6197F0111EDEAEBA0066DE5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6197F01C1EDEAEBA0066DE5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6197EFF21EDEAEBA0066DE5F = {
+			isa = PBXGroup;
+			children = (
+				6197EFFD1EDEAEBA0066DE5F /* schedar */,
+				6197F0171EDEAEBA0066DE5F /* schedarTests */,
+				6197F0221EDEAEBA0066DE5F /* schedarUITests */,
+				6197EFFC1EDEAEBA0066DE5F /* Products */,
+				B21A89ABDF3545242143CB0D /* Pods */,
+				B9A69DAD3B19296932C768E2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6197EFFC1EDEAEBA0066DE5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6197EFFB1EDEAEBA0066DE5F /* schedar.app */,
+				6197F0141EDEAEBA0066DE5F /* schedarTests.xctest */,
+				6197F01F1EDEAEBA0066DE5F /* schedarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6197EFFD1EDEAEBA0066DE5F /* schedar */ = {
+			isa = PBXGroup;
+			children = (
+				6197F0311EDEAF290066DE5F /* TXT */,
+				6197F0011EDEAEBA0066DE5F /* AppDelegate.h */,
+				6197F0021EDEAEBA0066DE5F /* AppDelegate.m */,
+				6197F0341EDEAFA60066DE5F /* XXHomeViewController.h */,
+				6197F0351EDEAFA60066DE5F /* XXHomeViewController.m */,
+				6197F0071EDEAEBA0066DE5F /* Main.storyboard */,
+				6197F00A1EDEAEBA0066DE5F /* Assets.xcassets */,
+				6197F00C1EDEAEBA0066DE5F /* LaunchScreen.storyboard */,
+				6197F00F1EDEAEBA0066DE5F /* Info.plist */,
+				6197EFFE1EDEAEBA0066DE5F /* Supporting Files */,
+			);
+			path = schedar;
+			sourceTree = "<group>";
+		};
+		6197EFFE1EDEAEBA0066DE5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6197EFFF1EDEAEBA0066DE5F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6197F0171EDEAEBA0066DE5F /* schedarTests */ = {
+			isa = PBXGroup;
+			children = (
+				6197F0181EDEAEBA0066DE5F /* schedarTests.m */,
+				6197F01A1EDEAEBA0066DE5F /* Info.plist */,
+			);
+			path = schedarTests;
+			sourceTree = "<group>";
+		};
+		6197F0221EDEAEBA0066DE5F /* schedarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6197F0231EDEAEBA0066DE5F /* schedarUITests.m */,
+				6197F0251EDEAEBA0066DE5F /* Info.plist */,
+			);
+			path = schedarUITests;
+			sourceTree = "<group>";
+		};
+		6197F0311EDEAF290066DE5F /* TXT */ = {
+			isa = PBXGroup;
+			children = (
+				6197F0321EDEAF440066DE5F /* 雨季不再来.txt */,
+			);
+			name = TXT;
+			sourceTree = "<group>";
+		};
+		B21A89ABDF3545242143CB0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57EBB632BB43E1814AA2F7AD /* Pods-schedar.debug.xcconfig */,
+				7973E8213629FE7E7BDF8789 /* Pods-schedar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B9A69DAD3B19296932C768E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F03002AE41345671E0411D99 /* libPods-schedar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6197EFFA1EDEAEBA0066DE5F /* schedar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6197F0281EDEAEBA0066DE5F /* Build configuration list for PBXNativeTarget "schedar" */;
+			buildPhases = (
+				E5599AAE702F06C9E12415EE /* [CP] Check Pods Manifest.lock */,
+				6197EFF71EDEAEBA0066DE5F /* Sources */,
+				6197EFF81EDEAEBA0066DE5F /* Frameworks */,
+				6197EFF91EDEAEBA0066DE5F /* Resources */,
+				3EBD464B7B02342F246C84E8 /* [CP] Embed Pods Frameworks */,
+				0692948BC327CB87FEF78E8A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = schedar;
+			productName = schedar;
+			productReference = 6197EFFB1EDEAEBA0066DE5F /* schedar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6197F0131EDEAEBA0066DE5F /* schedarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6197F02B1EDEAEBA0066DE5F /* Build configuration list for PBXNativeTarget "schedarTests" */;
+			buildPhases = (
+				6197F0101EDEAEBA0066DE5F /* Sources */,
+				6197F0111EDEAEBA0066DE5F /* Frameworks */,
+				6197F0121EDEAEBA0066DE5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6197F0161EDEAEBA0066DE5F /* PBXTargetDependency */,
+			);
+			name = schedarTests;
+			productName = schedarTests;
+			productReference = 6197F0141EDEAEBA0066DE5F /* schedarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6197F01E1EDEAEBA0066DE5F /* schedarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6197F02E1EDEAEBA0066DE5F /* Build configuration list for PBXNativeTarget "schedarUITests" */;
+			buildPhases = (
+				6197F01B1EDEAEBA0066DE5F /* Sources */,
+				6197F01C1EDEAEBA0066DE5F /* Frameworks */,
+				6197F01D1EDEAEBA0066DE5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6197F0211EDEAEBA0066DE5F /* PBXTargetDependency */,
+			);
+			name = schedarUITests;
+			productName = schedarUITests;
+			productReference = 6197F01F1EDEAEBA0066DE5F /* schedarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6197EFF31EDEAEBA0066DE5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = xiangxiong;
+				TargetAttributes = {
+					6197EFFA1EDEAEBA0066DE5F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 435YL4NF9J;
+						ProvisioningStyle = Automatic;
+					};
+					6197F0131EDEAEBA0066DE5F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 435YL4NF9J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6197EFFA1EDEAEBA0066DE5F;
+					};
+					6197F01E1EDEAEBA0066DE5F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 435YL4NF9J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6197EFFA1EDEAEBA0066DE5F;
+					};
+				};
+			};
+			buildConfigurationList = 6197EFF61EDEAEBA0066DE5F /* Build configuration list for PBXProject "schedar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6197EFF21EDEAEBA0066DE5F;
+			productRefGroup = 6197EFFC1EDEAEBA0066DE5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6197EFFA1EDEAEBA0066DE5F /* schedar */,
+				6197F0131EDEAEBA0066DE5F /* schedarTests */,
+				6197F01E1EDEAEBA0066DE5F /* schedarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6197EFF91EDEAEBA0066DE5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6197F00E1EDEAEBA0066DE5F /* LaunchScreen.storyboard in Resources */,
+				6197F0331EDEAF440066DE5F /* 雨季不再来.txt in Resources */,
+				6197F00B1EDEAEBA0066DE5F /* Assets.xcassets in Resources */,
+				6197F0091EDEAEBA0066DE5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6197F0121EDEAEBA0066DE5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6197F01D1EDEAEBA0066DE5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0692948BC327CB87FEF78E8A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-schedar/Pods-schedar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EBD464B7B02342F246C84E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-schedar/Pods-schedar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5599AAE702F06C9E12415EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6197EFF71EDEAEBA0066DE5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6197F0361EDEAFA60066DE5F /* XXHomeViewController.m in Sources */,
+				6197F0031EDEAEBA0066DE5F /* AppDelegate.m in Sources */,
+				6197F0001EDEAEBA0066DE5F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6197F0101EDEAEBA0066DE5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6197F0191EDEAEBA0066DE5F /* schedarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6197F01B1EDEAEBA0066DE5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6197F0241EDEAEBA0066DE5F /* schedarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6197F0161EDEAEBA0066DE5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6197EFFA1EDEAEBA0066DE5F /* schedar */;
+			targetProxy = 6197F0151EDEAEBA0066DE5F /* PBXContainerItemProxy */;
+		};
+		6197F0211EDEAEBA0066DE5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6197EFFA1EDEAEBA0066DE5F /* schedar */;
+			targetProxy = 6197F0201EDEAEBA0066DE5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6197F0071EDEAEBA0066DE5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6197F0081EDEAEBA0066DE5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6197F00C1EDEAEBA0066DE5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6197F00D1EDEAEBA0066DE5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6197F0261EDEAEBA0066DE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6197F0271EDEAEBA0066DE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6197F0291EDEAEBA0066DE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57EBB632BB43E1814AA2F7AD /* Pods-schedar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 435YL4NF9J;
+				INFOPLIST_FILE = schedar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuxiangxiong.lcd.schedar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6197F02A1EDEAEBA0066DE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7973E8213629FE7E7BDF8789 /* Pods-schedar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 435YL4NF9J;
+				INFOPLIST_FILE = schedar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuxiangxiong.lcd.schedar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6197F02C1EDEAEBA0066DE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 435YL4NF9J;
+				INFOPLIST_FILE = schedarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuxiangxiong.lcd.schedarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/schedar.app/schedar";
+			};
+			name = Debug;
+		};
+		6197F02D1EDEAEBA0066DE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 435YL4NF9J;
+				INFOPLIST_FILE = schedarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuxiangxiong.lcd.schedarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/schedar.app/schedar";
+			};
+			name = Release;
+		};
+		6197F02F1EDEAEBA0066DE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 435YL4NF9J;
+				INFOPLIST_FILE = schedarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuxiangxiong.lcd.schedarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = schedar;
+			};
+			name = Debug;
+		};
+		6197F0301EDEAEBA0066DE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 435YL4NF9J;
+				INFOPLIST_FILE = schedarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuxiangxiong.lcd.schedarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = schedar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6197EFF61EDEAEBA0066DE5F /* Build configuration list for PBXProject "schedar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6197F0261EDEAEBA0066DE5F /* Debug */,
+				6197F0271EDEAEBA0066DE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6197F0281EDEAEBA0066DE5F /* Build configuration list for PBXNativeTarget "schedar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6197F0291EDEAEBA0066DE5F /* Debug */,
+				6197F02A1EDEAEBA0066DE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6197F02B1EDEAEBA0066DE5F /* Build configuration list for PBXNativeTarget "schedarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6197F02C1EDEAEBA0066DE5F /* Debug */,
+				6197F02D1EDEAEBA0066DE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6197F02E1EDEAEBA0066DE5F /* Build configuration list for PBXNativeTarget "schedarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6197F02F1EDEAEBA0066DE5F /* Debug */,
+				6197F0301EDEAEBA0066DE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6197EFF31EDEAEBA0066DE5F /* Project object */;
+}

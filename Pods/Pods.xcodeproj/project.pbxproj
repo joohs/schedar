@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21A254E3D108CB5F407C0B60C0AB682A /* RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A12012F305FD5F1498AE3F439E9E81F /* RTRootNavigationController.m */; };
+		4523C7D2911A5642B2801708763663F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		62593420BAF8C50B35B7C11FE274256C /* UIViewController+RTRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D21295069A49DCE8107329051E03BEB8 /* UIViewController+RTRootNavigationController.m */; };
+		C04FEF72C69E0ED04E798A33589CAD73 /* Pods-schedar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE37266E4A8B2F4BFD9211D223515A /* Pods-schedar-dummy.m */; };
+		C59EC35102B0D9CBC3E6F0AD503907F2 /* RTRootNavigationController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3EC12EDAA15E651F9F91CACA967E58 /* RTRootNavigationController-dummy.m */; };
+		C871F5EDBCB970A4AA3DB8CE1E850F5A /* UIViewController+RTRootNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = E385BA576C58C60678ADDE02DD65C94E /* UIViewController+RTRootNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D696C213236E50D94B72145A7E793A8D /* RTRootNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = A6C120CA237FC814745B9FF91D777316 /* RTRootNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E17CE608A7D7564518E297D7F7AA7E45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		FA145AD5575F4E45185357A856289FBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		216CAFB7B783B1742D7FFDA2A7EB3011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3C9ED228A98FDB3B941CFE28481CA2;
+			remoteInfo = RTRootNavigationController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07C73143B3132B805F1A4647EFC07705 /* libRTRootNavigationController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRTRootNavigationController.a; path = libRTRootNavigationController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A12012F305FD5F1498AE3F439E9E81F /* RTRootNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTRootNavigationController.m; path = RTRootNavigationController/Classes/RTRootNavigationController.m; sourceTree = "<group>"; };
+		2265F7E942CC909395F61AE0C6A76ED1 /* Pods-schedar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-schedar-frameworks.sh"; sourceTree = "<group>"; };
+		3E3EC12EDAA15E651F9F91CACA967E58 /* RTRootNavigationController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RTRootNavigationController-dummy.m"; sourceTree = "<group>"; };
+		542A76BC6AEB37C3DA3E23A905C54843 /* Pods-schedar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-schedar.release.xcconfig"; sourceTree = "<group>"; };
+		706F2B60E7A064DCFB0AF0FED12C0676 /* Pods-schedar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-schedar-acknowledgements.plist"; sourceTree = "<group>"; };
+		7EFE37266E4A8B2F4BFD9211D223515A /* Pods-schedar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-schedar-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2FFAF6A877B81CC7C47C57EF85E66F4 /* libPods-schedar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-schedar.a"; path = "libPods-schedar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C120CA237FC814745B9FF91D777316 /* RTRootNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTRootNavigationController.h; path = RTRootNavigationController/Classes/RTRootNavigationController.h; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B9EDE8AE179F96BCC8B900D5A549D141 /* RTRootNavigationController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RTRootNavigationController-prefix.pch"; sourceTree = "<group>"; };
+		D09C31957BB9CC1EF16B2F1FD1A698EA /* Pods-schedar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-schedar-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D21295069A49DCE8107329051E03BEB8 /* UIViewController+RTRootNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+RTRootNavigationController.m"; path = "RTRootNavigationController/Classes/UIViewController+RTRootNavigationController.m"; sourceTree = "<group>"; };
+		D55FCDD80E683C421DC91921FFBD7A62 /* Pods-schedar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-schedar.debug.xcconfig"; sourceTree = "<group>"; };
+		D80B89CF4063F66BA4661BB194E87923 /* Pods-schedar-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-schedar-resources.sh"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E385BA576C58C60678ADDE02DD65C94E /* UIViewController+RTRootNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RTRootNavigationController.h"; path = "RTRootNavigationController/Classes/UIViewController+RTRootNavigationController.h"; sourceTree = "<group>"; };
+		FFD90631680A8D34FF22B2F52687114C /* RTRootNavigationController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RTRootNavigationController.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		597FF9917E995F4FD37CA29013B0E4F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17CE608A7D7564518E297D7F7AA7E45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC57948292111831C9E30F64BD0C4CF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4523C7D2911A5642B2801708763663F6 /* Foundation.framework in Frameworks */,
+				FA145AD5575F4E45185357A856289FBF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0593D83254BE8BA787FD69046CC87F28 /* RTRootNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				A6C120CA237FC814745B9FF91D777316 /* RTRootNavigationController.h */,
+				1A12012F305FD5F1498AE3F439E9E81F /* RTRootNavigationController.m */,
+				E385BA576C58C60678ADDE02DD65C94E /* UIViewController+RTRootNavigationController.h */,
+				D21295069A49DCE8107329051E03BEB8 /* UIViewController+RTRootNavigationController.m */,
+				36951B5005599BFEF1F8566AABFC4FFA /* Support Files */,
+			);
+			name = RTRootNavigationController;
+			path = RTRootNavigationController;
+			sourceTree = "<group>";
+		};
+		36951B5005599BFEF1F8566AABFC4FFA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFD90631680A8D34FF22B2F52687114C /* RTRootNavigationController.xcconfig */,
+				3E3EC12EDAA15E651F9F91CACA967E58 /* RTRootNavigationController-dummy.m */,
+				B9EDE8AE179F96BCC8B900D5A549D141 /* RTRootNavigationController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RTRootNavigationController";
+			sourceTree = "<group>";
+		};
+		38E460133A26E18966452E3275475B67 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB7179089758D06B7E6581DC90DD5E26 /* Pods-schedar */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				D9513508F35C051EAECC8789E9271633 /* Pods */,
+				C52B1ED01120EADC1E7E53790421D634 /* Products */,
+				38E460133A26E18966452E3275475B67 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		C52B1ED01120EADC1E7E53790421D634 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2FFAF6A877B81CC7C47C57EF85E66F4 /* libPods-schedar.a */,
+				07C73143B3132B805F1A4647EFC07705 /* libRTRootNavigationController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB7179089758D06B7E6581DC90DD5E26 /* Pods-schedar */ = {
+			isa = PBXGroup;
+			children = (
+				D09C31957BB9CC1EF16B2F1FD1A698EA /* Pods-schedar-acknowledgements.markdown */,
+				706F2B60E7A064DCFB0AF0FED12C0676 /* Pods-schedar-acknowledgements.plist */,
+				7EFE37266E4A8B2F4BFD9211D223515A /* Pods-schedar-dummy.m */,
+				2265F7E942CC909395F61AE0C6A76ED1 /* Pods-schedar-frameworks.sh */,
+				D80B89CF4063F66BA4661BB194E87923 /* Pods-schedar-resources.sh */,
+				D55FCDD80E683C421DC91921FFBD7A62 /* Pods-schedar.debug.xcconfig */,
+				542A76BC6AEB37C3DA3E23A905C54843 /* Pods-schedar.release.xcconfig */,
+			);
+			name = "Pods-schedar";
+			path = "Target Support Files/Pods-schedar";
+			sourceTree = "<group>";
+		};
+		D9513508F35C051EAECC8789E9271633 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0593D83254BE8BA787FD69046CC87F28 /* RTRootNavigationController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1CCF8ECF9C5DA90FE3B16600D148EFFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D696C213236E50D94B72145A7E793A8D /* RTRootNavigationController.h in Headers */,
+				C871F5EDBCB970A4AA3DB8CE1E850F5A /* UIViewController+RTRootNavigationController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5CAB19E7FAD7565BC28949E055B15FEC /* Pods-schedar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 016140F14EF2923DB74DE6C84BA9CD74 /* Build configuration list for PBXNativeTarget "Pods-schedar" */;
+			buildPhases = (
+				8AF2FC43B363BC1903811D1C0EE00DC6 /* Sources */,
+				597FF9917E995F4FD37CA29013B0E4F8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00DD235D94D036834F1FBF34E642F077 /* PBXTargetDependency */,
+			);
+			name = "Pods-schedar";
+			productName = "Pods-schedar";
+			productReference = A2FFAF6A877B81CC7C47C57EF85E66F4 /* libPods-schedar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CF3C9ED228A98FDB3B941CFE28481CA2 /* RTRootNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17AD671BFF98F2924104D886DCCA80B7 /* Build configuration list for PBXNativeTarget "RTRootNavigationController" */;
+			buildPhases = (
+				2CA1AEDAEB0433C32EA5450679B07FC2 /* Sources */,
+				AC57948292111831C9E30F64BD0C4CF5 /* Frameworks */,
+				1CCF8ECF9C5DA90FE3B16600D148EFFE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTRootNavigationController;
+			productName = RTRootNavigationController;
+			productReference = 07C73143B3132B805F1A4647EFC07705 /* libRTRootNavigationController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C52B1ED01120EADC1E7E53790421D634 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CAB19E7FAD7565BC28949E055B15FEC /* Pods-schedar */,
+				CF3C9ED228A98FDB3B941CFE28481CA2 /* RTRootNavigationController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CA1AEDAEB0433C32EA5450679B07FC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59EC35102B0D9CBC3E6F0AD503907F2 /* RTRootNavigationController-dummy.m in Sources */,
+				21A254E3D108CB5F407C0B60C0AB682A /* RTRootNavigationController.m in Sources */,
+				62593420BAF8C50B35B7C11FE274256C /* UIViewController+RTRootNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF2FC43B363BC1903811D1C0EE00DC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04FEF72C69E0ED04E798A33589CAD73 /* Pods-schedar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00DD235D94D036834F1FBF34E642F077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RTRootNavigationController;
+			target = CF3C9ED228A98FDB3B941CFE28481CA2 /* RTRootNavigationController */;
+			targetProxy = 216CAFB7B783B1742D7FFDA2A7EB3011 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CA18DF3A78AB8061A1E032CF5C5CC42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 542A76BC6AEB37C3DA3E23A905C54843 /* Pods-schedar.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		33911B5863C0F87E1D84ED430F4A681A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D55FCDD80E683C421DC91921FFBD7A62 /* Pods-schedar.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA871212FEF7920DFC3DD6D317DD2640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFD90631680A8D34FF22B2F52687114C /* RTRootNavigationController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RTRootNavigationController/RTRootNavigationController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EAE724C8183BF2C3C22D138C5A39199F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFD90631680A8D34FF22B2F52687114C /* RTRootNavigationController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RTRootNavigationController/RTRootNavigationController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		016140F14EF2923DB74DE6C84BA9CD74 /* Build configuration list for PBXNativeTarget "Pods-schedar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33911B5863C0F87E1D84ED430F4A681A /* Debug */,
+				0CA18DF3A78AB8061A1E032CF5C5CC42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17AD671BFF98F2924104D886DCCA80B7 /* Build configuration list for PBXNativeTarget "RTRootNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA871212FEF7920DFC3DD6D317DD2640 /* Debug */,
+				EAE724C8183BF2C3C22D138C5A39199F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
