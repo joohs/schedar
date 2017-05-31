@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
+        <!--Navigation View Controller-->
         <scene sceneID="0q2-nX-zdb">
             <objects>
-                <navigationController id="rrj-qz-Nus" sceneMemberID="viewController">
+                <navigationController id="rrj-qz-Nus" customClass="XXNavigationViewController" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="IwP-RJ-dI6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -25,10 +25,10 @@
             </objects>
             <point key="canvasLocation" x="-358" y="130"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="g9D-cI-fmv">
             <objects>
-                <viewController id="fhv-Dy-FU4" sceneMemberID="viewController">
+                <viewController id="fhv-Dy-FU4" customClass="XXHomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="SfW-JD-zG2"/>
                         <viewControllerLayoutGuide type="bottom" id="IEV-LL-r6u"/>
