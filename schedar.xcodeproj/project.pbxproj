@@ -10,7 +10,6 @@
 		610BE00F1EDEB28900A21048 /* XXNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610BE00E1EDEB28900A21048 /* XXNavigationViewController.m */; };
 		610BE0241EDED0E900A21048 /* 闹学记.epub in Resources */ = {isa = PBXBuildFile; fileRef = 610BE0231EDED0E900A21048 /* 闹学记.epub */; };
 		610BE0281EDED11F00A21048 /* XXBookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 610BE0271EDED11F00A21048 /* XXBookModel.m */; };
-		610BE02C1EDED1E900A21048 /* XXReaderPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610BE02B1EDED1E900A21048 /* XXReaderPageViewController.m */; };
 		610BE02F1EDED40100A21048 /* XXHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 610BE02E1EDED40100A21048 /* XXHomeTableViewCell.m */; };
 		610BE06F1EDED7AB00A21048 /* LSYChapterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 610BE0321EDED7AB00A21048 /* LSYChapterVC.m */; };
 		610BE0701EDED7AB00A21048 /* LSYMarkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 610BE0341EDED7AB00A21048 /* LSYMarkVC.m */; };
@@ -57,6 +56,23 @@
 		610BE0C31EDEDDE400A21048 /* LSYMagnifierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 610BE0BC1EDEDDE400A21048 /* LSYMagnifierView.m */; };
 		610BE0C41EDEDDE400A21048 /* LSYMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 610BE0BE1EDEDDE400A21048 /* LSYMenuView.m */; };
 		610BE0C51EDEDDE400A21048 /* LSYTopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 610BE0C01EDEDDE400A21048 /* LSYTopMenuView.m */; };
+		618B6AD81EDFB27E00D2AF2D /* 谈心.epub in Resources */ = {isa = PBXBuildFile; fileRef = 618B6ACA1EDFB27E00D2AF2D /* 谈心.epub */; };
+		618B6AD91EDFB27E00D2AF2D /* 背影.epub in Resources */ = {isa = PBXBuildFile; fileRef = 618B6ACB1EDFB27E00D2AF2D /* 背影.epub */; };
+		618B6ADA1EDFB27E00D2AF2D /* 稻草人手记.epub in Resources */ = {isa = PBXBuildFile; fileRef = 618B6ACC1EDFB27E00D2AF2D /* 稻草人手记.epub */; };
+		618B6ADB1EDFB27E00D2AF2D /* 哭泣的骆驼.epub in Resources */ = {isa = PBXBuildFile; fileRef = 618B6ACD1EDFB27E00D2AF2D /* 哭泣的骆驼.epub */; };
+		618B6ADC1EDFB27E00D2AF2D /* 梦里花落知多少.epub in Resources */ = {isa = PBXBuildFile; fileRef = 618B6ACE1EDFB27E00D2AF2D /* 梦里花落知多少.epub */; };
+		618B6ADD1EDFB27E00D2AF2D /* 亲爱的三毛.epub in Resources */ = {isa = PBXBuildFile; fileRef = 618B6ACF1EDFB27E00D2AF2D /* 亲爱的三毛.epub */; };
+		618B6ADE1EDFB27E00D2AF2D /* 倾城.epub in Resources */ = {isa = PBXBuildFile; fileRef = 618B6AD01EDFB27E00D2AF2D /* 倾城.epub */; };
+		618B6ADF1EDFB27E00D2AF2D /* 撒哈拉的故事.epub in Resources */ = {isa = PBXBuildFile; fileRef = 618B6AD11EDFB27E00D2AF2D /* 撒哈拉的故事.epub */; };
+		618B6AE01EDFB27E00D2AF2D /* 三毛大事记.epub in Resources */ = {isa = PBXBuildFile; fileRef = 618B6AD21EDFB27E00D2AF2D /* 三毛大事记.epub */; };
+		618B6AE11EDFB27E00D2AF2D /* 送你一匹马.epub in Resources */ = {isa = PBXBuildFile; fileRef = 618B6AD31EDFB27E00D2AF2D /* 送你一匹马.epub */; };
+		618B6AE21EDFB27E00D2AF2D /* 万水千山走遍.epub in Resources */ = {isa = PBXBuildFile; fileRef = 618B6AD41EDFB27E00D2AF2D /* 万水千山走遍.epub */; };
+		618B6AE31EDFB27E00D2AF2D /* 温柔的夜.epub in Resources */ = {isa = PBXBuildFile; fileRef = 618B6AD51EDFB27E00D2AF2D /* 温柔的夜.epub */; };
+		618B6AE41EDFB27E00D2AF2D /* 我的宝贝.epub in Resources */ = {isa = PBXBuildFile; fileRef = 618B6AD61EDFB27E00D2AF2D /* 我的宝贝.epub */; };
+		618B6AE51EDFB27E00D2AF2D /* 雨季不再来.epub in Resources */ = {isa = PBXBuildFile; fileRef = 618B6AD71EDFB27E00D2AF2D /* 雨季不再来.epub */; };
+		618B6AE81EDFF7E900D2AF2D /* XXHomeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 618B6AE71EDFF7E900D2AF2D /* XXHomeDetailViewController.m */; };
+		618B6AEB1EDFFECB00D2AF2D /* XXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 618B6AEA1EDFFECB00D2AF2D /* XXBaseViewController.m */; };
+		618B6AEE1EE0013500D2AF2D /* XXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 618B6AED1EE0013500D2AF2D /* XXWebViewController.m */; };
 		6197F0001EDEAEBA0066DE5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6197EFFF1EDEAEBA0066DE5F /* main.m */; };
 		6197F0031EDEAEBA0066DE5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6197F0021EDEAEBA0066DE5F /* AppDelegate.m */; };
 		6197F0091EDEAEBA0066DE5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6197F0071EDEAEBA0066DE5F /* Main.storyboard */; };
@@ -93,8 +109,6 @@
 		610BE0231EDED0E900A21048 /* 闹学记.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "闹学记.epub"; sourceTree = "<group>"; };
 		610BE0261EDED11F00A21048 /* XXBookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXBookModel.h; sourceTree = "<group>"; };
 		610BE0271EDED11F00A21048 /* XXBookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXBookModel.m; sourceTree = "<group>"; };
-		610BE02A1EDED1E900A21048 /* XXReaderPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXReaderPageViewController.h; sourceTree = "<group>"; };
-		610BE02B1EDED1E900A21048 /* XXReaderPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXReaderPageViewController.m; sourceTree = "<group>"; };
 		610BE02D1EDED40100A21048 /* XXHomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXHomeTableViewCell.h; sourceTree = "<group>"; };
 		610BE02E1EDED40100A21048 /* XXHomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXHomeTableViewCell.m; sourceTree = "<group>"; };
 		610BE0311EDED7AB00A21048 /* LSYChapterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSYChapterVC.h; sourceTree = "<group>"; };
@@ -189,6 +203,26 @@
 		610BE0BE1EDEDDE400A21048 /* LSYMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSYMenuView.m; sourceTree = "<group>"; };
 		610BE0BF1EDEDDE400A21048 /* LSYTopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSYTopMenuView.h; sourceTree = "<group>"; };
 		610BE0C01EDEDDE400A21048 /* LSYTopMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSYTopMenuView.m; sourceTree = "<group>"; };
+		618B6ACA1EDFB27E00D2AF2D /* 谈心.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "谈心.epub"; sourceTree = "<group>"; };
+		618B6ACB1EDFB27E00D2AF2D /* 背影.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "背影.epub"; sourceTree = "<group>"; };
+		618B6ACC1EDFB27E00D2AF2D /* 稻草人手记.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "稻草人手记.epub"; sourceTree = "<group>"; };
+		618B6ACD1EDFB27E00D2AF2D /* 哭泣的骆驼.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "哭泣的骆驼.epub"; sourceTree = "<group>"; };
+		618B6ACE1EDFB27E00D2AF2D /* 梦里花落知多少.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "梦里花落知多少.epub"; sourceTree = "<group>"; };
+		618B6ACF1EDFB27E00D2AF2D /* 亲爱的三毛.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "亲爱的三毛.epub"; sourceTree = "<group>"; };
+		618B6AD01EDFB27E00D2AF2D /* 倾城.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "倾城.epub"; sourceTree = "<group>"; };
+		618B6AD11EDFB27E00D2AF2D /* 撒哈拉的故事.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "撒哈拉的故事.epub"; sourceTree = "<group>"; };
+		618B6AD21EDFB27E00D2AF2D /* 三毛大事记.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "三毛大事记.epub"; sourceTree = "<group>"; };
+		618B6AD31EDFB27E00D2AF2D /* 送你一匹马.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "送你一匹马.epub"; sourceTree = "<group>"; };
+		618B6AD41EDFB27E00D2AF2D /* 万水千山走遍.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "万水千山走遍.epub"; sourceTree = "<group>"; };
+		618B6AD51EDFB27E00D2AF2D /* 温柔的夜.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "温柔的夜.epub"; sourceTree = "<group>"; };
+		618B6AD61EDFB27E00D2AF2D /* 我的宝贝.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "我的宝贝.epub"; sourceTree = "<group>"; };
+		618B6AD71EDFB27E00D2AF2D /* 雨季不再来.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "雨季不再来.epub"; sourceTree = "<group>"; };
+		618B6AE61EDFF7E900D2AF2D /* XXHomeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXHomeDetailViewController.h; sourceTree = "<group>"; };
+		618B6AE71EDFF7E900D2AF2D /* XXHomeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXHomeDetailViewController.m; sourceTree = "<group>"; };
+		618B6AE91EDFFECB00D2AF2D /* XXBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXBaseViewController.h; sourceTree = "<group>"; };
+		618B6AEA1EDFFECB00D2AF2D /* XXBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXBaseViewController.m; sourceTree = "<group>"; };
+		618B6AEC1EE0013500D2AF2D /* XXWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXWebViewController.h; sourceTree = "<group>"; };
+		618B6AED1EE0013500D2AF2D /* XXWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXWebViewController.m; sourceTree = "<group>"; };
 		6197EFFB1EDEAEBA0066DE5F /* schedar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = schedar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6197EFFF1EDEAEBA0066DE5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6197F0011EDEAEBA0066DE5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -242,6 +276,8 @@
 			children = (
 				610BE00D1EDEB28900A21048 /* XXNavigationViewController.h */,
 				610BE00E1EDEB28900A21048 /* XXNavigationViewController.m */,
+				618B6AE91EDFFECB00D2AF2D /* XXBaseViewController.h */,
+				618B6AEA1EDFFECB00D2AF2D /* XXBaseViewController.m */,
 				610BE0101EDEB5ED00A21048 /* schedar.pch */,
 			);
 			name = Expand;
@@ -260,21 +296,16 @@
 				610BE0AA1EDED9DF00A21048 /* LSYReadViewController.m */,
 				610BE0261EDED11F00A21048 /* XXBookModel.h */,
 				610BE0271EDED11F00A21048 /* XXBookModel.m */,
-				6197F0341EDEAFA60066DE5F /* XXHomeViewController.h */,
-				6197F0351EDEAFA60066DE5F /* XXHomeViewController.m */,
 				610BE02D1EDED40100A21048 /* XXHomeTableViewCell.h */,
 				610BE02E1EDED40100A21048 /* XXHomeTableViewCell.m */,
+				6197F0341EDEAFA60066DE5F /* XXHomeViewController.h */,
+				6197F0351EDEAFA60066DE5F /* XXHomeViewController.m */,
+				618B6AE61EDFF7E900D2AF2D /* XXHomeDetailViewController.h */,
+				618B6AE71EDFF7E900D2AF2D /* XXHomeDetailViewController.m */,
+				618B6AEC1EE0013500D2AF2D /* XXWebViewController.h */,
+				618B6AED1EE0013500D2AF2D /* XXWebViewController.m */,
 			);
 			name = Book;
-			sourceTree = "<group>";
-		};
-		610BE0291EDED1CA00A21048 /* Reader */ = {
-			isa = PBXGroup;
-			children = (
-				610BE02A1EDED1E900A21048 /* XXReaderPageViewController.h */,
-				610BE02B1EDED1E900A21048 /* XXReaderPageViewController.m */,
-			);
-			name = Reader;
 			sourceTree = "<group>";
 		};
 		610BE0301EDED7AB00A21048 /* CatalogVC */ = {
@@ -470,7 +501,6 @@
 				610BE0891EDED84400A21048 /* Core */,
 				610BE0301EDED7AB00A21048 /* CatalogVC */,
 				610BE0371EDED7AB00A21048 /* Third */,
-				610BE0291EDED1CA00A21048 /* Reader */,
 				610BE0251EDED0FD00A21048 /* Book */,
 				610BE00C1EDEB26500A21048 /* Expand */,
 				6197F0311EDEAF290066DE5F /* Data */,
@@ -515,6 +545,20 @@
 			isa = PBXGroup;
 			children = (
 				610BE0231EDED0E900A21048 /* 闹学记.epub */,
+				618B6ACA1EDFB27E00D2AF2D /* 谈心.epub */,
+				618B6ACB1EDFB27E00D2AF2D /* 背影.epub */,
+				618B6ACC1EDFB27E00D2AF2D /* 稻草人手记.epub */,
+				618B6ACD1EDFB27E00D2AF2D /* 哭泣的骆驼.epub */,
+				618B6ACE1EDFB27E00D2AF2D /* 梦里花落知多少.epub */,
+				618B6ACF1EDFB27E00D2AF2D /* 亲爱的三毛.epub */,
+				618B6AD01EDFB27E00D2AF2D /* 倾城.epub */,
+				618B6AD11EDFB27E00D2AF2D /* 撒哈拉的故事.epub */,
+				618B6AD21EDFB27E00D2AF2D /* 三毛大事记.epub */,
+				618B6AD31EDFB27E00D2AF2D /* 送你一匹马.epub */,
+				618B6AD41EDFB27E00D2AF2D /* 万水千山走遍.epub */,
+				618B6AD51EDFB27E00D2AF2D /* 温柔的夜.epub */,
+				618B6AD61EDFB27E00D2AF2D /* 我的宝贝.epub */,
+				618B6AD71EDFB27E00D2AF2D /* 雨季不再来.epub */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -652,11 +696,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				618B6AD81EDFB27E00D2AF2D /* 谈心.epub in Resources */,
+				618B6AE21EDFB27E00D2AF2D /* 万水千山走遍.epub in Resources */,
 				6197F00E1EDEAEBA0066DE5F /* LaunchScreen.storyboard in Resources */,
+				618B6AE01EDFB27E00D2AF2D /* 三毛大事记.epub in Resources */,
+				618B6AE51EDFB27E00D2AF2D /* 雨季不再来.epub in Resources */,
+				618B6ADC1EDFB27E00D2AF2D /* 梦里花落知多少.epub in Resources */,
 				610BE0C11EDEDDE400A21048 /* bt_tjcp_no@2x.png in Resources */,
+				618B6AD91EDFB27E00D2AF2D /* 背影.epub in Resources */,
 				610BE0241EDED0E900A21048 /* 闹学记.epub in Resources */,
+				618B6ADA1EDFB27E00D2AF2D /* 稻草人手记.epub in Resources */,
 				6197F00B1EDEAEBA0066DE5F /* Assets.xcassets in Resources */,
+				618B6AE11EDFB27E00D2AF2D /* 送你一匹马.epub in Resources */,
+				618B6AE31EDFB27E00D2AF2D /* 温柔的夜.epub in Resources */,
 				6197F0091EDEAEBA0066DE5F /* Main.storyboard in Resources */,
+				618B6ADE1EDFB27E00D2AF2D /* 倾城.epub in Resources */,
+				618B6ADB1EDFB27E00D2AF2D /* 哭泣的骆驼.epub in Resources */,
+				618B6ADF1EDFB27E00D2AF2D /* 撒哈拉的故事.epub in Resources */,
+				618B6AE41EDFB27E00D2AF2D /* 我的宝贝.epub in Resources */,
+				618B6ADD1EDFB27E00D2AF2D /* 亲爱的三毛.epub in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -746,24 +804,26 @@
 				610BE0721EDED7AB00A21048 /* GTMNSString+HTML.m in Sources */,
 				610BE0871EDED7AB00A21048 /* zip.c in Sources */,
 				610BE0AD1EDED9DF00A21048 /* LSYReadView.m in Sources */,
+				618B6AEB1EDFFECB00D2AF2D /* XXBaseViewController.m in Sources */,
 				610BE0741EDED7AB00A21048 /* NSString+HTML.m in Sources */,
 				610BE09E1EDED89600A21048 /* LSYChapterModel.m in Sources */,
 				610BE0701EDED7AB00A21048 /* LSYMarkVC.m in Sources */,
 				610BE0751EDED7AB00A21048 /* CXMLDocument_CreationExtensions.m in Sources */,
 				610BE0841EDED7AB00A21048 /* ioapi.c in Sources */,
 				610BE0AE1EDED9DF00A21048 /* LSYReadViewController.m in Sources */,
+				618B6AEE1EE0013500D2AF2D /* XXWebViewController.m in Sources */,
 				610BE0921EDED84400A21048 /* LSYReadUtilites.m in Sources */,
 				610BE0901EDED84400A21048 /* LSYReadConfig.m in Sources */,
 				610BE0C51EDEDDE400A21048 /* LSYTopMenuView.m in Sources */,
 				610BE0781EDED7AB00A21048 /* CXMLDocument.m in Sources */,
 				6197F0361EDEAFA60066DE5F /* XXHomeViewController.m in Sources */,
 				610BE0851EDED7AB00A21048 /* mztools.c in Sources */,
+				618B6AE81EDFF7E900D2AF2D /* XXHomeDetailViewController.m in Sources */,
 				610BE07C1EDED7AB00A21048 /* CXMLElement_ElementTreeExtensions.m in Sources */,
 				610BE0801EDED7AB00A21048 /* CXMLNode_XPathExtensions.m in Sources */,
 				610BE07E1EDED7AB00A21048 /* CXMLNode.m in Sources */,
 				610BE0831EDED7AB00A21048 /* UIImage+ImageEffects.m in Sources */,
 				610BE0811EDED7AB00A21048 /* CXMLUnsupportedNode.m in Sources */,
-				610BE02C1EDED1E900A21048 /* XXReaderPageViewController.m in Sources */,
 				610BE0771EDED7AB00A21048 /* CXHTMLDocument.m in Sources */,
 				6197F0031EDEAEBA0066DE5F /* AppDelegate.m in Sources */,
 				610BE0C21EDEDDE400A21048 /* LSYBottomMenuView.m in Sources */,

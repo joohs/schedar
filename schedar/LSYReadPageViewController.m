@@ -264,8 +264,11 @@
             [_model.chapters[chapter] parserEpubToDictionary];
             [_model.chapters[chapter] paginateEpubWithBounds:CGRectMake(0,0, [UIScreen mainScreen].bounds.size.width-LeftSpacing-RightSpacing, [UIScreen mainScreen].bounds.size.height-TopSpacing-BottomSpacing)];
         }
-        
-        _readView.epubFrameRef = _model.chapters[chapter].epubframeRef[page];
+        NSUInteger newPage = page;
+        if ([_model.chapters[chapter].epubframeRef count]<=page) {
+            newPage = 0;
+        }
+        _readView.epubFrameRef = _model.chapters[chapter].epubframeRef[newPage];
         _readView.imageArray = _model.chapters[chapter].imageArray;
         _readView.content = _model.chapters[chapter].content;
     }

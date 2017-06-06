@@ -7,9 +7,10 @@
 //
 
 #import "XXHomeViewController.h"
-#import "XXReaderPageViewController.h"
+#import "LSYReadPageViewController.h"
 #import "XXBookModel.h"
 #import "XXHomeTableViewCell.h"
+#import "XXHomeDetailViewController.h"
 
 static NSString *kXXHomeTableViewCell = @"XXHomeTableViewCell";
 
@@ -23,15 +24,14 @@ static NSString *kXXHomeTableViewCell = @"XXHomeTableViewCell";
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.navigationController.navigationBarHidden = YES;
-    
+    self.title = @"三毛作品集";
     self.dataArray = [XXBookModel bookArray];
     self.listTableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
     self.listTableView.delegate = self;
     self.listTableView.dataSource = self;
     [self.view addSubview:self.listTableView];
     [self.listTableView registerClass:[XXHomeTableViewCell class] forCellReuseIdentifier:kXXHomeTableViewCell];
-    
+    self.listTableView.tableFooterView = [[UIView alloc]init];
     
 
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"雨季不再来" ofType:@"txt"];
@@ -64,20 +64,42 @@ static NSString *kXXHomeTableViewCell = @"XXHomeTableViewCell";
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 44;
+    return 130;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     XXHomeTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kXXHomeTableViewCell forIndexPath:indexPath];
+    XXBookModel *model = [self.dataArray objectAtIndex:indexPath.row];
+    [cell updateCellWithModel:model];
+    [cell addTarget:self sel:@selector(toDetail:) tag:indexPath.row];
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     XXBookModel *model = [self.dataArray objectAtIndex:indexPath.row];
-    XXReaderPageViewController *controller = [[XXReaderPageViewController alloc]init];
-    [self.navigationController pushViewController:controller animated:YES];
+    LSYReadPageViewController *pageView = [[LSYReadPageViewController alloc] init];
+    pageView.resourceURL = model.fileUrl;    //文件位置
+    
+    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+        
+        pageView.model = [LSYReadModel getLocalModelWithURL:model.fileUrl];
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self presentViewController:pageView animated:YES completion:^{
+                
+            }];
+        });
+    });
+}
+
+- (void)toDetail:(UITapGestureRecognizer *)tap
+{
+    XXBookModel *model = [self.dataArray objectAtIndex:tap.view.tag];
+    XXHomeDetailViewController *detail = [[XXHomeDetailViewController alloc]init];
+    detail.model = model;
+    [self.navigationController pushViewController:detail animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

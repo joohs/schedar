@@ -1,22 +1,35 @@
 //
-//  XXReaderPageViewController.m
+//  XXBaseViewController.m
 //  schedar
 //
-//  Created by xiangxiong on 2017/5/31.
+//  Created by xiangxiong on 2017/6/1.
 //  Copyright © 2017年 xiangxiong. All rights reserved.
 //
 
-#import "XXReaderPageViewController.h"
+#import "XXBaseViewController.h"
 
-@interface XXReaderPageViewController ()
+@interface XXBaseViewController ()
 
 @end
 
-@implementation XXReaderPageViewController
+@implementation XXBaseViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    [button setImage:[UIImage imageNamed:@"bg_back_white"] forState:UIControlStateNormal];
+    [button sizeToFit];
+    [button addTarget:self
+               action:@selector(back:)
+     forControlEvents:UIControlEventTouchUpInside];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:button];
+    
+}
+
+- (void)back:(id)sender
+{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

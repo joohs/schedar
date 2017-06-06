@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "XXBookModel.h"
 
 @interface XXHomeTableViewCell : UITableViewCell
-
+- (void)updateCellWithModel:(XXBookModel *)model;
+- (void)addTarget:(id)target sel:(SEL)sel tag:(NSInteger )tag;
 @end
